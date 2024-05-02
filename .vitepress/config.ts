@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Awesome Vue3 components",
-  description: "A awesome vue3 components library",
+  title: 'Awesome Vue3 components',
+  description: 'A awesome vue3 components library',
+  base: 'repo',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -21,8 +22,6 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
   }
 })
