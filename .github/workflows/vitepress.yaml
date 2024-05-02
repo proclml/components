@@ -20,7 +20,7 @@ jobs:
       - name: Build VitePress site
         run: pnpm run docs:build # 构建静态网站
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3 # 使用GitHub Pages部署动作
+        uses: peaceiris/actions-gh-pages@v2 # 使用GitHub Pages部署动作
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # 使用GitHub提供的令牌进行身份验证
           publish_dir: .vitepress/dist # 指定要部署的目录，即VitePress构建的静态文件目录
