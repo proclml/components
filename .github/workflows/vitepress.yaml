@@ -9,10 +9,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: master # 检查docs分支的代码
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v2
         with:
-          node-version: '18' # 设置Node.js版本
+          node-version: '18' # 指定Node.js版本为18
       - name: Install pnpm
         run: npm install -g pnpm # 安装项目依赖
       - name: Install dependencies
