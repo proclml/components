@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'Vue3 组件库'
+  name: 'proclml workspace'
   actions:
     - theme: brand
-      text: 组件
+      text: Vue3 Components
       link: /components/cron
 ---

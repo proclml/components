@@ -1,4 +1,4 @@
-# cron 表达式
+# CronInput
 
 <script setup>
 import { ref } from 'vue'
