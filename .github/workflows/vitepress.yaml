@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # 设置Node.js版本
+          node-version: '18' # 设置Node.js版本
       - name: Install pnpm
         run: npm install -g pnpm # 安装项目依赖
       - name: Install dependencies
