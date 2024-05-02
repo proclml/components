@@ -30,7 +30,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # VitePress生成的静态文件目录，根据实际情况修改
+          publish_dir: ./docs/.vitepress/dist # VitePress生成的静态文件目录，根据实际情况修改
           commit_message: 'Deploy VitePress site to GitHub Pages'
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
