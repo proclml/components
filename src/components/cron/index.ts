@@ -1,2 +1,2 @@
-export { default as CronInput } from './cron-component.vue'
+export { default as CronInput } from './CronExpression.vue'
 export * from './parser'

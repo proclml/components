@@ -14,7 +14,10 @@ export default defineConfig({
     sidebar: [
       {
         text: '组件',
-        items: [{ text: 'cron表达式', link: '/components/cron' }]
+        items: [
+          { text: 'CronExpression', link: '/components/cron' },
+          { text: 'ExpansionPanel', link: '/components/expansion-panel' }
+        ]
       }
     ],
 
