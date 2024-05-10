@@ -17,6 +17,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@typescript/ata": "^0.9.4",
+    "monaco-editor": "^0.48.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -32,6 +34,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "jsdom": "^24.0.0",
+    "monaco": "^1.201704190613.0",
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.2.5",
     "typescript": "~5.4.0",

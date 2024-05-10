@@ -5,6 +5,7 @@ specifiers:
   '@tsconfig/node20': ^20.1.4
   '@types/jsdom': ^21.1.6
   '@types/node': ^20.12.5
+  '@typescript/ata': ^0.9.4
   '@vitejs/plugin-vue': ^5.0.4
   '@vue/eslint-config-prettier': ^9.0.0
   '@vue/eslint-config-typescript': ^13.0.0
@@ -13,6 +14,8 @@ specifiers:
   eslint: ^8.57.0
   eslint-plugin-vue: ^9.23.0
   jsdom: ^24.0.0
+  monaco: ^1.201704190613.0
+  monaco-editor: ^0.48.0
   npm-run-all2: ^6.1.2
   prettier: ^3.2.5
   typescript: ~5.4.0
@@ -24,6 +27,8 @@ specifiers:
   vue-tsc: ^2.0.11
 
 dependencies:
+  '@typescript/ata': 0.9.4_typescript@5.4.5
+  monaco-editor: 0.48.0
   vue: 3.4.25_typescript@5.4.5
 
 devDependencies:
@@ -39,6 +44,7 @@ devDependencies:
   eslint: 8.57.0
   eslint-plugin-vue: 9.25.0_eslint@8.57.0
   jsdom: 24.0.0
+  monaco: 1.201704190613.0
   npm-run-all2: 6.1.2
   prettier: 3.2.5
   typescript: 5.4.5
@@ -1294,6 +1300,14 @@ packages:
       '@typescript-eslint/types': 7.7.1
       eslint-visitor-keys: 3.4.3
     dev: true
+
+  /@typescript/ata/0.9.4_typescript@5.4.5:
+    resolution: {integrity: sha512-PaJ16WouPV/SaA+c0tnOKIqYq24+m93ipl/e0Dkxuianer+ibc5b0/6ZgfCFF8J7QEp57dySMSP9nWOFaCfJnw==}
+    peerDependencies:
+      typescript: ^4.4.4
+    dependencies:
+      typescript: 5.4.5
+    dev: false
 
   /@ungap/structured-clone/1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
@@ -2895,6 +2909,14 @@ packages:
       pathe: 1.1.2
       pkg-types: 1.1.0
       ufo: 1.5.3
+    dev: true
+
+  /monaco-editor/0.48.0:
+    resolution: {integrity: sha512-goSDElNqFfw7iDHMg8WDATkfcyeLTNpBHQpO8incK6p5qZt5G/1j41X0xdGzpIkGojGXM+QiRQyLjnfDVvrpwA==}
+    dev: false
+
+  /monaco/1.201704190613.0:
+    resolution: {integrity: sha512-xcQUOfa7inJdhOjHmwxILMIyPk4nl80E9AVvwyz5PUC2uEbxSjNUR9tjEIUxR+rR5o0xe64lqsIpChSzu8YMOQ==}
     dev: true
 
   /mrmime/2.0.0:
