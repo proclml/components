@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'proclml workspace'
+  name: 'proclml playground'
   actions:
     - theme: brand
       text: Vue3 Components
